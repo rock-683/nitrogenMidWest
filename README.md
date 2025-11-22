@@ -6,13 +6,17 @@ The organization compiles regional health and environmental data, including beha
 **Problem**: There is limited understanding of how nitrogen levels relate to key health outcomes such as low birthweight in the Midwest, creating challenges for planning and targeting intervention efforts.
 
 
-**Goal**: To provide a nitrogen health risk assessment. *Nitrogen Health Risk Assessment*: Assessment of county-level risk by analyzing spatial patterns between nitrogen concentrations and low birthweight outcomes.
+**Goal**: To provide a nitrogen health risk assessment of county-level risk by analyzing spatial patterns between nitrogen concentrations and low birthweight outcomes
 
 An interactive PowerBI dashboard can be viewed [here](https://app.powerbi.com/view?r=eyJrIjoiZDNkZmRiYmQtNDViOC00NDU2LTk1ZDAtMzc1N2FkZGFiNDBiIiwidCI6IjA2MTM4ZTY4LWJmOGItNDUwYS1iMmJmLWYyNTljMjczYWYxNiJ9).  
-Python code used to clean, organize, and prepare data for analysis can be found [here](source_and_carpentry.py).   
-Exploratory data analysis for `nitrogen` can be found [here](ExploratoryDataAnalysis_Nitrogen.py). Geospatial autocorrelation (Hot spot analysis) for nitrogen can be found [here]().  
-Exploratory data analysis for lbw can be found [here](). Geospatial autocorrelation (Hot spot analysis) for low birthweight can be found [here]().   
-Multiscale Geographical Weighted Regression (MGWR) python code can be found here.
 
+Python code can be found at the following links:  
++ Data [sources, cleaning and preparation](source_and_carpentry.py) for analysis.   
++ Nitrogen: [Exploratory data analysis](ExploratoryDataAnalysis_Nitrogen.py) and [Geospatial autocorrelation](SpatialAutocorrelation_Nitrogen.py)(Hot spot analysis)  
++ Low Birthweight: [Exploratory data analysis](ExploratoryDataAnalysis_LB.py) and [Geospatial autocorrelation](SpatialAutocorrelation_LB.py) (Hot spot analysis)   
++ [Multiscale Geographical Weighted Regression](GWR_MGWR_LowBirthweight.py) (MGWR)
 
+### Data Structure and Initial Checks
+
+BioSand's finailized project database structure as seen below consists of three tables: geodata_county, county_nitrogen, and county_health. All can be joined using each county’s  Federal Information Processing Standard (FIPS) code. 
 
