@@ -12,8 +12,9 @@ The organization compiles regional health and environmental data, including beha
 
 *Nitrogen Health Risk Assessment*: Assessment of county-level risk by analyzing spatial patterns between nitrogen concentrations and low birthweight outcomes.
 
-An interactive PowerBI dashboard can be downloaded here. https://app.powerbi.com/view?r=eyJrIjoiZDNkZmRiYmQtNDViOC00NDU2LTk1ZDAtMzc1N2FkZGFiNDBiIiwidCI6IjA2MTM4ZTY4LWJmOGItNDUwYS1iMmJmLWYyNTljMjczYWYxNiJ9
-The python code used to clean, organize, and prepare data for the dashboard can be found here. 
+An interactive PowerBI dashboard can be downloaded [here] (https://app.powerbi.com/view?r=eyJrIjoiZDNkZmRiYmQtNDViOC00NDU2LTk1ZDAtMzc1N2FkZGFiNDBiIiwidCI6IjA2MTM4ZTY4LWJmOGItNDUwYS1iMmJmLWYyNTljMjczYWYxNiJ9).
+
+The python code used to clean, organize, and prepare data for the dashboard can be found [here] (). 
 Geospatial autocorrelation (Hot spot analysis) python code can be found here. 
 Multiscale Geographical Weighted Regression (MGWR) python code can be found here.
 
