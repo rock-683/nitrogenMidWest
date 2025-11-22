@@ -5,17 +5,13 @@ The organization compiles regional health and environmental data, including beha
 
 **Problem**: There is limited understanding of how nitrogen levels relate to key health outcomes such as low birthweight in the Midwest, creating challenges for planning and targeting intervention efforts.
 
-*Target Health Outcome*: Low Birthweight
 
+**Goal**: To provide a nitrogen health risk assessment. *Nitrogen Health Risk Assessment*: Assessment of county-level risk by analyzing spatial patterns between nitrogen concentrations and low birthweight outcomes.
 
-**Goal**: To provide a nitrogen health risk assessment 
-
-*Nitrogen Health Risk Assessment*: Assessment of county-level risk by analyzing spatial patterns between nitrogen concentrations and low birthweight outcomes.
-
-An interactive PowerBI dashboard can be downloaded [here] (https://app.powerbi.com/view?r=eyJrIjoiZDNkZmRiYmQtNDViOC00NDU2LTk1ZDAtMzc1N2FkZGFiNDBiIiwidCI6IjA2MTM4ZTY4LWJmOGItNDUwYS1iMmJmLWYyNTljMjczYWYxNiJ9).
-
-The python code used to clean, organize, and prepare data for the dashboard can be found [here] (). 
-Geospatial autocorrelation (Hot spot analysis) python code can be found here. 
+An interactive PowerBI dashboard can be viewed [here](https://app.powerbi.com/view?r=eyJrIjoiZDNkZmRiYmQtNDViOC00NDU2LTk1ZDAtMzc1N2FkZGFiNDBiIiwidCI6IjA2MTM4ZTY4LWJmOGItNDUwYS1iMmJmLWYyNTljMjczYWYxNiJ9).  
+Python code used to clean, organize, and prepare data for analysis can be found [here](source_and_carpentry.py).   
+Exploratory data analysis for `nitrogen` can be found [here](ExploratoryDataAnalysis_Nitrogen.py). Geospatial autocorrelation (Hot spot analysis) for nitrogen can be found [here]().  
+Exploratory data analysis for lbw can be found [here](). Geospatial autocorrelation (Hot spot analysis) for low birthweight can be found [here]().   
 Multiscale Geographical Weighted Regression (MGWR) python code can be found here.
 
 
