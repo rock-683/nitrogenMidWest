@@ -21,7 +21,7 @@ BioSand's finailized project database structure as seen below consists of three 
 
 `county_health` includes a total of 85 county-level health outcomes and indicators in the following areas: health behaviors (tobacco use, diet and exercise, alcohol and drug use), clinical care (access to care, quality of care), social and economic factors (education, employment, income), physical environment (air quality) and demographics (age, race/ethnicity). 
 
-Python code can be found at the following links:  
+More details on data sources, checks for quality, and analysis conducted for familiarization with the datasets./ Python code can be found at the following links:  
 + Data [sources, cleaning and preparation](source_and_carpentry.py) for analysis.   
 + Nitrogen: [Exploratory data analysis](ExploratoryDataAnalysis_Nitrogen.py) and [Geospatial autocorrelation](SpatialAutocorrelation_Nitrogen.py)(Hot spot analysis)  
 + Low Birthweight: [Exploratory data analysis](ExploratoryDataAnalysis_LB.py) and [Geospatial autocorrelation](SpatialAutocorrelation_LB.py) (Hot spot analysis)   
@@ -41,4 +41,8 @@ Below is the summary section from the Power BI dashboard. More examples are incl
 
 Nitrogen Landscape 
 
-[ Studies that were published about nitrogen levels if you can find those records. ]
+Nitrate levels in water resources have increased in many areas of the world largely due to applications of inorganic fertilizer and animal manure in agricultural areas. Nitrate ingestion from drinking water has been associated with an increased risk of adverse birth outcomes. Nitrate exposure associated with low birthweight (Semprini, 2025; Temkin et al.,2019) 
+
+References:
+Semprini, J. (2025). Public Water Quality and Birth Outcomes: Evidence from the World’s Largest Nitrate Removal Facility. medRxiv, 2025-05.
+Temkin, A., Evans, S., Manidis, T., Campbell, C., & Naidenko, O. V. (2019). Exposure-based assessment and economic valuation of adverse birth outcomes and cancer risk due to nitrate in United States drinking water. Environmental research, 176, 108442.
